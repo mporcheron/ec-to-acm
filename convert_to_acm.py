@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 
 import csv
 import sys
@@ -16,7 +17,7 @@ with open(filename_authors, 'r') as file_authors:
 
     paper_author_sequence_no = {}
     published_article_number = 0
-    article_seq_no = 0
+    article_seq_no = -1
     
     previous_event_tracking_number = None
 
